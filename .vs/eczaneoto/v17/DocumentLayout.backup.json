@@ -1,0 +1,390 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|c:\\users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\kategori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\kategori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\ilac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\ilac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\eczanedb.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\eczanedb.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\form3.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\form3.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\form5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\form5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\hasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\hasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\recete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1093468-8E81-401F-ADAE-7D5619D1275A}|eczaneoto\\eczaneoto.csproj|solutionrelative:eczaneoto\\recete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form4.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form4.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Form4.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form4.cs [Design]",
+              "RelativeToolTip": "eczaneoto\\Form4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T18:04:24.799Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form2.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Form2.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form2.cs [Design]",
+              "RelativeToolTip": "eczaneoto\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T15:15:36.941Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form5.cs",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form5.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Form5.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form5.cs",
+              "RelativeToolTip": "eczaneoto\\Form5.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAiwN0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T16:50:38.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form3.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Form3.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form3.cs [Design]",
+              "RelativeToolTip": "eczaneoto\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T17:45:06.532Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form1.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Form1.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form1.cs [Design]*",
+              "RelativeToolTip": "eczaneoto\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:34:05.349Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form5.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form5.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Form5.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form5.cs [Design]",
+              "RelativeToolTip": "eczaneoto\\Form5.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T16:44:30.313Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form4.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form4.Designer.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Form4.Designer.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form4.Designer.cs",
+              "RelativeToolTip": "eczaneoto\\Form4.Designer.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAWwLUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T19:02:00.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form1.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Form1.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form1.cs*",
+              "RelativeToolTip": "eczaneoto\\Form1.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T15:08:03.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form2.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Form2.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form2.cs",
+              "RelativeToolTip": "eczaneoto\\Form2.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAUwD4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T15:25:04.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form4.cs",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form4.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Form4.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form4.cs",
+              "RelativeToolTip": "eczaneoto\\Form4.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAgwNQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T18:52:57.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Ilac.cs",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Ilac.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Ilac.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Ilac.cs",
+              "RelativeToolTip": "eczaneoto\\Ilac.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:53:45.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "kategori.cs",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\kategori.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\kategori.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\kategori.cs",
+              "RelativeToolTip": "eczaneoto\\kategori.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:37:10.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EczaneDb.Context.cs",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\EczaneDb.Context.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\EczaneDb.Context.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\EczaneDb.Context.cs",
+              "RelativeToolTip": "eczaneoto\\EczaneDb.Context.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:55:51.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form1.Designer.cs",
+              "RelativeToolTip": "eczaneoto\\Form1.Designer.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAWwEsAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T15:34:26.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form3.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Form3.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form3.cs",
+              "RelativeToolTip": "eczaneoto\\Form3.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowBIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T17:58:40.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Form3.resx",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form3.resx",
+              "RelativeDocumentMoniker": "eczaneoto\\Form3.resx",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form3.resx",
+              "RelativeToolTip": "eczaneoto\\Form3.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-05-25T17:10:11.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Form3.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form3.Designer.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Form3.Designer.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form3.Designer.cs",
+              "RelativeToolTip": "eczaneoto\\Form3.Designer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T17:59:25.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Form5.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form5.Designer.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Form5.Designer.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form5.Designer.cs",
+              "RelativeToolTip": "eczaneoto\\Form5.Designer.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAYwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T16:56:15.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Form2.Designer.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Form2.Designer.cs",
+              "RelativeToolTip": "eczaneoto\\Form2.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T15:42:11.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\App.config",
+              "RelativeDocumentMoniker": "eczaneoto\\App.config",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\App.config",
+              "RelativeToolTip": "eczaneoto\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-24T14:35:14.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Hasta.cs",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Hasta.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Hasta.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Hasta.cs",
+              "RelativeToolTip": "eczaneoto\\Hasta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:54:37.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Recete.cs",
+              "DocumentMoniker": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Recete.cs",
+              "RelativeDocumentMoniker": "eczaneoto\\Recete.cs",
+              "ToolTip": "C:\\Users\\esman\\source\\repos\\c#\\eczaneoto\\eczaneoto\\Recete.cs",
+              "RelativeToolTip": "eczaneoto\\Recete.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:55:05.122Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
