@@ -23,6 +23,6 @@ public class Hasta
     [MaxLength(20)]
     public string Hasta_Telefon { get; set; }
 
-    // one-to-many: bir hastanın birden fazla reçetesi olabilir
+   
     public virtual ICollection<Recete> Receteler { get; set; }
 }

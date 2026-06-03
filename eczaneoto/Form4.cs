@@ -13,7 +13,7 @@ namespace eczaneoto
 {
     public partial class Form4 : Form
     {
-        // ── Hoca Slide 41: db nesnesi public alanda tanımlanır ──
+       
         EczaneDbContext db = new EczaneDbContext();
 
         public Form4()
@@ -26,25 +26,20 @@ namespace eczaneoto
             btn_listele.PerformClick();
         }
 
-        // ── LİSTELE ─────────────────────────────────────────────
-        // Hoca Slide 46: try-catch içinde listeleme
-        // Hoca Slide 50: sütun başlıkları değiştirme
-        // Hoca Slide 53: ID sütununu gizleme
-        // Hoca Slide 56: sütunları genişletme
+        
         private void btn_listele_Click(object sender, EventArgs e)
         {
             try
             {
-                // Her listelemede yeni db nesnesi → Form5'ten eklenen
-                // kategoriler anında buraya yansır
+                
                 db = new EczaneDbContext();
 
-                // ComboBox'a kategorileri taze yükle
+                
                 cmbKategori.DataSource = db.Kategoriler.ToList();
                 cmbKategori.DisplayMember = "Kategori_Adi";
                 cmbKategori.ValueMember = "Kategori_Id";
 
-                // DataGridView'a ilaçları JOIN ile yükle
+                
                 var ilaclar = db.Ilaclar
                     .Include(i => i.Kategori)
                     .Select(i => new
@@ -59,7 +54,7 @@ namespace eczaneoto
 
                 dataGridView1.DataSource = ilaclar;
 
-                // Sütun başlıklarını Türkçe yap
+                
                 dataGridView1.Columns["Ilac_Id"].HeaderText = "İlaç ID";
                 dataGridView1.Columns["Ilac_Adi"].HeaderText = "İlaç Adı";
                 dataGridView1.Columns["Ilac_Barkod"].HeaderText = "Barkod";
@@ -67,10 +62,10 @@ namespace eczaneoto
                 dataGridView1.Columns["Ilac_Stok"].HeaderText = "Stok";
                 dataGridView1.Columns["Kategori"].HeaderText = "Kategori";
 
-                // ID sütununu gizle
+               
                 dataGridView1.Columns["Ilac_Id"].Visible = false;
 
-                // Sütunları tüm ekrana yay
+               
                 dataGridView1.AutoSizeColumnsMode =
                     DataGridViewAutoSizeColumnsMode.Fill;
             }
@@ -80,8 +75,7 @@ namespace eczaneoto
             }
         }
 
-        // ── EKLE ────────────────────────────────────────────────
-        // Hoca Slide 63: ekleme işlemi
+       
         private void btn_ekle_Click(object sender, EventArgs e)
         {
             try
@@ -116,8 +110,6 @@ namespace eczaneoto
             }
         }
 
-        // ── SATIRA TIKLANINCA TEXTBOX'LARA AKTAR ────────────────
-        // Hoca Slide 75: CellClick olayı
         private void dataGridView1_CellClick(object sender,
             DataGridViewCellEventArgs e)
         {
@@ -134,8 +126,7 @@ namespace eczaneoto
             }
         }
 
-        // ── GÜNCELLE ────────────────────────────────────────────
-        // Hoca Slide 88: güncelleme işlemi
+        
         private void btn_guncelle_Click(object sender, EventArgs e)
         {
             try
@@ -167,8 +158,7 @@ namespace eczaneoto
             }
         }
 
-        // ── SİL ─────────────────────────────────────────────────
-        // Hoca Slide 102: silme işlemi
+       
         private void btn_sil_Click(object sender, EventArgs e)
         {
             try
@@ -204,7 +194,7 @@ namespace eczaneoto
             }
         }
 
-        // ── GERİ ────────────────────────────────────────────────
+      
         private void btn_geri_Click(object sender, EventArgs e)
         {
             this.Close();

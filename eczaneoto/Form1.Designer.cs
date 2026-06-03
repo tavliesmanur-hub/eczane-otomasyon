@@ -2,15 +2,10 @@
 {
     partial class Form1
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
+        
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+       
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +17,7 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+       
         private void InitializeComponent()
         {
             this.btn_Hastalar = new System.Windows.Forms.Button();
@@ -36,10 +28,10 @@
             // 
             // btn_Hastalar
             // 
-            this.btn_Hastalar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btn_Hastalar.Location = new System.Drawing.Point(152, 101);
+            this.btn_Hastalar.BackColor = System.Drawing.Color.White;
+            this.btn_Hastalar.Location = new System.Drawing.Point(143, 340);
             this.btn_Hastalar.Name = "btn_Hastalar";
-            this.btn_Hastalar.Size = new System.Drawing.Size(215, 77);
+            this.btn_Hastalar.Size = new System.Drawing.Size(144, 60);
             this.btn_Hastalar.TabIndex = 0;
             this.btn_Hastalar.Text = "HASTA İŞLEMLERİ";
             this.btn_Hastalar.UseVisualStyleBackColor = false;
@@ -47,10 +39,10 @@
             // 
             // btn_Receteler
             // 
-            this.btn_Receteler.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btn_Receteler.Location = new System.Drawing.Point(575, 91);
+            this.btn_Receteler.BackColor = System.Drawing.Color.White;
+            this.btn_Receteler.Location = new System.Drawing.Point(638, 340);
             this.btn_Receteler.Name = "btn_Receteler";
-            this.btn_Receteler.Size = new System.Drawing.Size(237, 78);
+            this.btn_Receteler.Size = new System.Drawing.Size(131, 60);
             this.btn_Receteler.TabIndex = 1;
             this.btn_Receteler.Text = "REÇETE";
             this.btn_Receteler.UseVisualStyleBackColor = false;
@@ -58,10 +50,11 @@
             // 
             // btn_Ilaclar
             // 
-            this.btn_Ilaclar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_Ilaclar.Location = new System.Drawing.Point(152, 346);
+            this.btn_Ilaclar.BackColor = System.Drawing.Color.White;
+            this.btn_Ilaclar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_Ilaclar.Location = new System.Drawing.Point(307, 336);
             this.btn_Ilaclar.Name = "btn_Ilaclar";
-            this.btn_Ilaclar.Size = new System.Drawing.Size(215, 74);
+            this.btn_Ilaclar.Size = new System.Drawing.Size(139, 64);
             this.btn_Ilaclar.TabIndex = 2;
             this.btn_Ilaclar.Text = "İLAÇ LİSTESİ";
             this.btn_Ilaclar.UseVisualStyleBackColor = false;
@@ -69,11 +62,11 @@
             // 
             // btn_kategoriler
             // 
-            this.btn_kategoriler.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn_kategoriler.BackColor = System.Drawing.Color.White;
             this.btn_kategoriler.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btn_kategoriler.Location = new System.Drawing.Point(592, 344);
+            this.btn_kategoriler.Location = new System.Drawing.Point(468, 336);
             this.btn_kategoriler.Name = "btn_kategoriler";
-            this.btn_kategoriler.Size = new System.Drawing.Size(220, 79);
+            this.btn_kategoriler.Size = new System.Drawing.Size(150, 60);
             this.btn_kategoriler.TabIndex = 3;
             this.btn_kategoriler.Text = "KATEGORİ YÖNETİMİ";
             this.btn_kategoriler.UseVisualStyleBackColor = false;
@@ -83,7 +76,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::eczaneoto.Properties.Resources.indir__4_1;
+            this.BackgroundImage = global::eczaneoto.Properties.Resources._6508670b_3b0b_4b04_b75e_1443c532a88d;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(945, 499);
             this.Controls.Add(this.btn_kategoriler);

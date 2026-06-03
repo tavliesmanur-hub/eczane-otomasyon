@@ -2,15 +2,11 @@
 {
     partial class KategoriForm
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
+        
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+       
+       
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +18,7 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+        
         private void InitializeComponent()
         {
             this.txt_KategoriAdi = new System.Windows.Forms.TextBox();
@@ -42,7 +35,7 @@
             // 
             // txt_KategoriAdi
             // 
-            this.txt_KategoriAdi.BackColor = System.Drawing.Color.Plum;
+            this.txt_KategoriAdi.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.txt_KategoriAdi.Location = new System.Drawing.Point(651, 85);
             this.txt_KategoriAdi.Name = "txt_KategoriAdi";
             this.txt_KategoriAdi.Size = new System.Drawing.Size(100, 26);
@@ -50,7 +43,7 @@
             // 
             // txt_Aciklama
             // 
-            this.txt_Aciklama.BackColor = System.Drawing.Color.Plum;
+            this.txt_Aciklama.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.txt_Aciklama.Location = new System.Drawing.Point(651, 120);
             this.txt_Aciklama.Name = "txt_Aciklama";
             this.txt_Aciklama.Size = new System.Drawing.Size(100, 26);
@@ -58,10 +51,10 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Plum;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.dataGridView1.Location = new System.Drawing.Point(12, 88);
+            this.dataGridView1.Location = new System.Drawing.Point(11, 85);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
@@ -70,7 +63,7 @@
             // 
             // btn_ekle
             // 
-            this.btn_ekle.BackColor = System.Drawing.Color.Plum;
+            this.btn_ekle.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_ekle.Location = new System.Drawing.Point(535, 184);
             this.btn_ekle.Name = "btn_ekle";
             this.btn_ekle.Size = new System.Drawing.Size(96, 40);
@@ -81,7 +74,7 @@
             // 
             // btn_guncelle
             // 
-            this.btn_guncelle.BackColor = System.Drawing.Color.Plum;
+            this.btn_guncelle.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_guncelle.Location = new System.Drawing.Point(651, 184);
             this.btn_guncelle.Name = "btn_guncelle";
             this.btn_guncelle.Size = new System.Drawing.Size(123, 44);
@@ -92,7 +85,7 @@
             // 
             // btn_sil
             // 
-            this.btn_sil.BackColor = System.Drawing.Color.Plum;
+            this.btn_sil.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_sil.Location = new System.Drawing.Point(540, 228);
             this.btn_sil.Name = "btn_sil";
             this.btn_sil.Size = new System.Drawing.Size(87, 43);
@@ -103,7 +96,7 @@
             // 
             // btn_listele
             // 
-            this.btn_listele.BackColor = System.Drawing.Color.Plum;
+            this.btn_listele.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_listele.Location = new System.Drawing.Point(651, 232);
             this.btn_listele.Name = "btn_listele";
             this.btn_listele.Size = new System.Drawing.Size(123, 39);
@@ -134,7 +127,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::eczaneoto.Properties.Resources.indir__3_;
+            this.BackgroundImage = global::eczaneoto.Properties.Resources._7247b464_8d38_4294_8d90_3d4606930f491;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(866, 463);
             this.Controls.Add(this.label2);

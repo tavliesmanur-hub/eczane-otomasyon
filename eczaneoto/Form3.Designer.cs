@@ -2,15 +2,10 @@
 {
     partial class Form3
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
+        
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+       
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +17,7 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+        
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -49,7 +41,7 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.SandyBrown;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(22, 12);
             this.dataGridView1.Name = "dataGridView1";
@@ -60,7 +52,7 @@
             // 
             // combo_hasta
             // 
-            this.combo_hasta.BackColor = System.Drawing.Color.Orange;
+            this.combo_hasta.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.combo_hasta.FormattingEnabled = true;
             this.combo_hasta.Location = new System.Drawing.Point(22, 209);
             this.combo_hasta.Name = "combo_hasta";
@@ -69,7 +61,7 @@
             // 
             // combo_ilac
             // 
-            this.combo_ilac.BackColor = System.Drawing.Color.Orange;
+            this.combo_ilac.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.combo_ilac.FormattingEnabled = true;
             this.combo_ilac.Location = new System.Drawing.Point(429, 209);
             this.combo_ilac.Name = "combo_ilac";
@@ -104,7 +96,7 @@
             // 
             // txt_miktar
             // 
-            this.txt_miktar.BackColor = System.Drawing.Color.Orange;
+            this.txt_miktar.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txt_miktar.Location = new System.Drawing.Point(446, 292);
             this.txt_miktar.Name = "txt_miktar";
             this.txt_miktar.Size = new System.Drawing.Size(288, 26);
@@ -175,7 +167,7 @@
             // rd_EnCokSatan
             // 
             this.rd_EnCokSatan.AutoSize = true;
-            this.rd_EnCokSatan.Location = new System.Drawing.Point(384, 352);
+            this.rd_EnCokSatan.Location = new System.Drawing.Point(381, 341);
             this.rd_EnCokSatan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rd_EnCokSatan.Name = "rd_EnCokSatan";
             this.rd_EnCokSatan.Size = new System.Drawing.Size(127, 24);
@@ -188,7 +180,7 @@
             // rd_ToplamRecete
             // 
             this.rd_ToplamRecete.AutoSize = true;
-            this.rd_ToplamRecete.Location = new System.Drawing.Point(384, 415);
+            this.rd_ToplamRecete.Location = new System.Drawing.Point(381, 376);
             this.rd_ToplamRecete.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rd_ToplamRecete.Name = "rd_ToplamRecete";
             this.rd_ToplamRecete.Size = new System.Drawing.Size(131, 24);
@@ -200,18 +192,17 @@
             // 
             // lbl_LinqSonuc
             // 
-            this.lbl_LinqSonuc.Location = new System.Drawing.Point(519, 365);
+            this.lbl_LinqSonuc.Location = new System.Drawing.Point(519, 341);
             this.lbl_LinqSonuc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_LinqSonuc.Name = "lbl_LinqSonuc";
-            this.lbl_LinqSonuc.Size = new System.Drawing.Size(144, 35);
+            this.lbl_LinqSonuc.Size = new System.Drawing.Size(245, 59);
             this.lbl_LinqSonuc.TabIndex = 15;
-            this.lbl_LinqSonuc.Text = "label5";
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::eczaneoto.Properties.Resources._9d32387279581247bf0c0734d4e776ac;
+            this.BackgroundImage = global::eczaneoto.Properties.Resources._3b710f26_bed5_4ccb_a026_46809df7ef88;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 449);
             this.Controls.Add(this.lbl_LinqSonuc);

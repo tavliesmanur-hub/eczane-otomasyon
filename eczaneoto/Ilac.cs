@@ -22,11 +22,11 @@ public class Ilac
     [Required]
     public int Ilac_Stok { get; set; }
 
-    // many-to-one: her ilaç bir kategoriye aittir
+    
     [Required]
     public int Kategori_Id { get; set; }
     public virtual Kategori Kategori { get; set; }
 
-    // one-to-many: bir ilacın birden fazla reçetesi olabilir
+    [Required]
     public virtual ICollection<Recete> Receteler { get; set; }
 }

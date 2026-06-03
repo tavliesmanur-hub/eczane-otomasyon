@@ -8,12 +8,12 @@ public class Recete
     [Key]
     public int Recete_Id { get; set; }
 
-    // many-to-one: hangi hastaya ait
+   
     [Required]
     public int Hasta_Id { get; set; }
     public virtual Hasta Hasta { get; set; }
 
-    // many-to-one: hangi ilaç
+   
     [Required]
     public int Ilac_Id { get; set; }
     public virtual Ilac Ilac { get; set; }

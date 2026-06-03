@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq; // LINQ sorguları için kesinlikle şart! 
+using System.Linq; 
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,7 +12,7 @@ namespace eczaneoto
 {
     public partial class KategoriForm : Form
     {
-        // Global veritabanı bağlantı nesnesi [cite: 2]
+       
         EczaneDbContext db = new EczaneDbContext();
 
         public KategoriForm()
@@ -24,24 +24,24 @@ namespace eczaneoto
             btn_listele.Click += new EventHandler(btn_listele_Click);
            
 
-            // Tabloya tıklama olayını da buraya bağlıyoruz
+           
             dataGridView1.CellClick += new DataGridViewCellEventHandler(dataGridView1_CellClick);
         }
 
         private void KategoriForm_Load(object sender, EventArgs e)
         {
-            // Form açılır açılmaz kategoriler listelensin [cite: 2]
+            
             KategoriListeleLINQ();
         }
 
-        // ── 1. LINQ ILE LİSTELEME (READ) ── [cite: 2]
+       
         private void KategoriListeleLINQ()
         {
             try
             {
                 using (EczaneDbContext sorguDb = new EczaneDbContext())
                 {
-                    // Hocanın istediği LINQ Projeksiyon Sorgusu (Select ile Anonymous Type) [cite: 2]
+                   
                     var kategoriListesi = sorguDb.Kategoriler
                         .Select(k => new
                         {
@@ -49,7 +49,7 @@ namespace eczaneoto
                             Kategori_Adi = k.Kategori_Adi,
                             Aciklama = k.Kategori_Aciklama
                         })
-                        .OrderBy(k => k.Kategori_Adi) // LINQ ile alfabetik sıralama
+                        .OrderBy(k => k.Kategori_Adi) 
                         .ToList();
 
                     dataGridView1.DataSource = kategoriListesi;
@@ -66,7 +66,7 @@ namespace eczaneoto
             KategoriListeleLINQ();
         }
 
-        // ── 2. LINQ ILE EKLEME (CREATE) ── [cite: 2]
+       
         private void btn_ekle_Click(object sender, EventArgs e)
         {
             try
@@ -81,7 +81,7 @@ namespace eczaneoto
 
                 using (EczaneDbContext kayitDb = new EczaneDbContext())
                 {
-                    // LINQ KONTROLÜ: Aynı isimde kategori var mı? (Hocanın beğeneceği kontrol)
+                    
                     bool varMi = kayitDb.Kategoriler.Any(k => k.Kategori_Adi.ToLower() == yeniAd.ToLower());
 
                     if (varMi)
@@ -102,7 +102,7 @@ namespace eczaneoto
 
                 MessageBox.Show("Kategori başarıyla eklendi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 KategoriTemizle();
-                KategoriListeleLINQ(); // Tabloyu yenile [cite: 2]
+                KategoriListeleLINQ(); 
             }
             catch (Exception ex)
             {
@@ -110,7 +110,7 @@ namespace eczaneoto
             }
         }
 
-        // ── 3. LINQ ILE GÜNCELLEME (UPDATE) ── [cite: 2]
+        
         private void btn_guncelle_Click(object sender, EventArgs e)
         {
             try
@@ -131,7 +131,7 @@ namespace eczaneoto
 
                 using (EczaneDbContext guncelleDb = new EczaneDbContext())
                 {
-                    // LINQ FirstOrDefault ile güncellenecek satırı buluyoruz
+                   
                     var guncellenecekKategori = guncelleDb.Kategoriler
                         .FirstOrDefault(k => k.Kategori_Id == secilenId);
 
@@ -143,7 +143,7 @@ namespace eczaneoto
                         guncelleDb.SaveChanges();
                         MessageBox.Show("Kategori başarıyla güncellendi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         KategoriTemizle();
-                        KategoriListeleLINQ(); // Tabloyu yenile [cite: 2]
+                        KategoriListeleLINQ(); 
                     }
                 }
             }
@@ -153,7 +153,7 @@ namespace eczaneoto
             }
         }
 
-        // ── 4. LINQ ILE SİLME (DELETE) ── [cite: 2]
+        
         private void btn_sil_Click(object sender, EventArgs e)
         {
             try
@@ -172,7 +172,7 @@ namespace eczaneoto
 
                     using (EczaneDbContext silDb = new EczaneDbContext())
                     {
-                        // LINQ SingleOrDefault ile silinecek kaydı tekil olarak seçiyoruz
+                        
                         var silinecekKategori = silDb.Kategoriler
                             .SingleOrDefault(k => k.Kategori_Id == secilenId);
 
@@ -182,19 +182,19 @@ namespace eczaneoto
                             silDb.SaveChanges();
                             MessageBox.Show("Kategori silindi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             KategoriTemizle();
-                            KategoriListeleLINQ(); // Tabloyu yenile [cite: 2]
+                            KategoriListeleLINQ(); 
                         }
                     }
                 }
             }
             catch (Exception)
             {
-              // İlişkili veri (Foreign Key) hatası koruması [cite: 1, 2]
+              
                 MessageBox.Show("Bu kategori silinemez! Bu kategoriye bağlı ilaçlar bulunuyor. Önce o ilaçları silmeli veya değiştirmelisiniz.", "Silme Engellendi", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
 
-        // ── 5. GRID SATIRINA TIKLANINCA METİN KUTULARINI DOLDURMA ──
+        
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0 && dataGridView1.Rows[e.RowIndex].Cells["Kategori_Adi"].Value != null)

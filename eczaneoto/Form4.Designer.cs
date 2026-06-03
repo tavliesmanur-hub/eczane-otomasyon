@@ -2,15 +2,11 @@
 {
     partial class Form4
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
+        
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        
+       
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +18,7 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+        
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -49,9 +42,9 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.RosyBrown;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(59, 38);
+            this.dataGridView1.Location = new System.Drawing.Point(35, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
@@ -62,9 +55,9 @@
             // btn_listele
             // 
             this.btn_listele.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_listele.Location = new System.Drawing.Point(49, 279);
+            this.btn_listele.Location = new System.Drawing.Point(49, 271);
             this.btn_listele.Name = "btn_listele";
-            this.btn_listele.Size = new System.Drawing.Size(118, 40);
+            this.btn_listele.Size = new System.Drawing.Size(118, 52);
             this.btn_listele.TabIndex = 1;
             this.btn_listele.Text = "LİSTELE";
             this.btn_listele.UseVisualStyleBackColor = false;
@@ -73,9 +66,9 @@
             // btn_ekle
             // 
             this.btn_ekle.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_ekle.Location = new System.Drawing.Point(177, 276);
+            this.btn_ekle.Location = new System.Drawing.Point(173, 271);
             this.btn_ekle.Name = "btn_ekle";
-            this.btn_ekle.Size = new System.Drawing.Size(106, 42);
+            this.btn_ekle.Size = new System.Drawing.Size(120, 47);
             this.btn_ekle.TabIndex = 2;
             this.btn_ekle.Text = "EKLE";
             this.btn_ekle.UseVisualStyleBackColor = false;
@@ -86,7 +79,7 @@
             this.btn_sil.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn_sil.Location = new System.Drawing.Point(49, 325);
             this.btn_sil.Name = "btn_sil";
-            this.btn_sil.Size = new System.Drawing.Size(105, 40);
+            this.btn_sil.Size = new System.Drawing.Size(118, 47);
             this.btn_sil.TabIndex = 3;
             this.btn_sil.Text = "SİL";
             this.btn_sil.UseVisualStyleBackColor = false;
@@ -95,9 +88,9 @@
             // btn_guncelle
             // 
             this.btn_guncelle.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_guncelle.Location = new System.Drawing.Point(167, 324);
+            this.btn_guncelle.Location = new System.Drawing.Point(177, 324);
             this.btn_guncelle.Name = "btn_guncelle";
-            this.btn_guncelle.Size = new System.Drawing.Size(116, 40);
+            this.btn_guncelle.Size = new System.Drawing.Size(116, 48);
             this.btn_guncelle.TabIndex = 4;
             this.btn_guncelle.Text = "GÜNCELLE";
             this.btn_guncelle.UseVisualStyleBackColor = false;
@@ -204,7 +197,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::eczaneoto.Properties.Resources.c2038a647de2706530f0601e849daf852;
+            this.BackgroundImage = global::eczaneoto.Properties.Resources.d001566b_efcd_4e8e_9c19_5544ee4ae792;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 498);
             this.Controls.Add(this.label5);

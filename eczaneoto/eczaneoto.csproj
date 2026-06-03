@@ -118,6 +118,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -218,6 +219,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\indir %284%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3a9e83d7-47b1-4b14-b16f-d72597f4a2ac.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\59c2ee37-c67f-4505-97e2-660909812cdc.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cb848022-1ca3-4aa7-9da8-21786dd7704e.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7247b464-8d38-4294-8d90-3d4606930f49.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7247b464-8d38-4294-8d90-3d4606930f491.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3b710f26-bed5-4ccb-a026-46809df7ef88.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d001566b-efcd-4e8e-9c19-5544ee4ae792.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\56700751-3c03-4595-b1dd-4bce266daf1a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6508670b-3b0b-4b04-b75e-1443c532a88d.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

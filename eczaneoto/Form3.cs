@@ -81,7 +81,7 @@ namespace eczaneoto
         {
             if (rd_EnCokSatan.Checked)
             {
-                // LINQ Sorgusu 1: Reçetelerde en çok adette yazılan (en popüler) ilacın adını bulur
+                
                 var EnCokYazilanIlac = db.Receteler
                     .GroupBy(r => r.Ilac.Ilac_Adi)
                     .Select(g => new { IlacAdi = g.Key, ToplamMiktar = g.Sum(r => r.Recete_Miktar) })
@@ -103,7 +103,7 @@ namespace eczaneoto
         {
             if (rd_ToplamRecete.Checked)
             {
-                // LINQ Sorgusu 2: Sistemdeki toplam reçete sayısını ve toplam satılan ilaç adedini hesaplar
+               
                 int toplamReceteSayisi = db.Receteler.Count();
                 int? toplamIlacAdedi = db.Receteler.Sum(r => (int?)r.Recete_Miktar) ?? 0;
 

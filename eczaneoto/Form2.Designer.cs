@@ -2,15 +2,10 @@
 {
     partial class Form2
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
+      
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+       
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +17,7 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+       
         private void InitializeComponent()
         {
             this.btn_listele = new System.Windows.Forms.Button();
@@ -47,7 +39,7 @@
             // 
             // btn_listele
             // 
-            this.btn_listele.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn_listele.BackColor = System.Drawing.Color.White;
             this.btn_listele.Location = new System.Drawing.Point(397, 298);
             this.btn_listele.Name = "btn_listele";
             this.btn_listele.Size = new System.Drawing.Size(108, 31);
@@ -58,7 +50,7 @@
             // 
             // btn_sil
             // 
-            this.btn_sil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn_sil.BackColor = System.Drawing.Color.White;
             this.btn_sil.Location = new System.Drawing.Point(523, 294);
             this.btn_sil.Name = "btn_sil";
             this.btn_sil.Size = new System.Drawing.Size(75, 35);
@@ -69,7 +61,7 @@
             // 
             // btn_guncelle
             // 
-            this.btn_guncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn_guncelle.BackColor = System.Drawing.Color.White;
             this.btn_guncelle.Location = new System.Drawing.Point(397, 341);
             this.btn_guncelle.Name = "btn_guncelle";
             this.btn_guncelle.Size = new System.Drawing.Size(108, 35);
@@ -80,7 +72,7 @@
             // 
             // btn_ekle
             // 
-            this.btn_ekle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn_ekle.BackColor = System.Drawing.Color.White;
             this.btn_ekle.Location = new System.Drawing.Point(523, 338);
             this.btn_ekle.Name = "btn_ekle";
             this.btn_ekle.Size = new System.Drawing.Size(78, 38);
@@ -91,7 +83,7 @@
             // 
             // txt_ad
             // 
-            this.txt_ad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.txt_ad.BackColor = System.Drawing.Color.White;
             this.txt_ad.Location = new System.Drawing.Point(179, 265);
             this.txt_ad.Name = "txt_ad";
             this.txt_ad.Size = new System.Drawing.Size(124, 26);
@@ -99,7 +91,7 @@
             // 
             // txt_soyad
             // 
-            this.txt_soyad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.txt_soyad.BackColor = System.Drawing.Color.White;
             this.txt_soyad.Location = new System.Drawing.Point(179, 298);
             this.txt_soyad.Name = "txt_soyad";
             this.txt_soyad.Size = new System.Drawing.Size(124, 26);
@@ -107,7 +99,7 @@
             // 
             // txt_tc
             // 
-            this.txt_tc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.txt_tc.BackColor = System.Drawing.Color.White;
             this.txt_tc.Location = new System.Drawing.Point(179, 332);
             this.txt_tc.Name = "txt_tc";
             this.txt_tc.Size = new System.Drawing.Size(124, 26);
@@ -115,7 +107,7 @@
             // 
             // txt_telefon
             // 
-            this.txt_telefon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.txt_telefon.BackColor = System.Drawing.Color.White;
             this.txt_telefon.Location = new System.Drawing.Point(179, 370);
             this.txt_telefon.Name = "txt_telefon";
             this.txt_telefon.Size = new System.Drawing.Size(124, 26);
@@ -123,7 +115,7 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(68, 12);
             this.dataGridView1.Name = "dataGridView1";
@@ -171,7 +163,7 @@
             // 
             // btn_geri
             // 
-            this.btn_geri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btn_geri.BackColor = System.Drawing.Color.White;
             this.btn_geri.Location = new System.Drawing.Point(688, 406);
             this.btn_geri.Name = "btn_geri";
             this.btn_geri.Size = new System.Drawing.Size(90, 43);
@@ -184,7 +176,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::eczaneoto.Properties.Resources._9f8a8c59bb2b2c1cd8439eef06dd829c;
+            this.BackgroundImage = global::eczaneoto.Properties.Resources.cb848022_1ca3_4aa7_9da8_21786dd7704e;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 449);
             this.Controls.Add(this.btn_geri);
             this.Controls.Add(this.label4);

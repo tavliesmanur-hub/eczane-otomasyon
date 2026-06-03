@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hasta" Collapsed="true">
+    <Position X="10.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAgIAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAhA=</HashCode>
+      <FileName>Hasta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ilac" Collapsed="true">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAACAAgAABAACAAAAAQAAAAAgAQAA=</HashCode>
+      <FileName>Ilac.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kategori" Collapsed="true">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAQEA=</HashCode>
+      <FileName>kategori.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="2" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Recete" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAIEAAAAAAAAAAAAAAABACQAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Recete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eczaneoto.Properties.Resources" Collapsed="true">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABICAiAwAUCAAAAFEBEAAgAWQAIBIAAJIECAQAQog=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

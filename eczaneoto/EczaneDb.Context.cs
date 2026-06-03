@@ -13,7 +13,7 @@ namespace eczaneoto
 
         public EczaneDbContext() : base("name=EczaneDbContext")
         {
-            // Veritabanını otomatik kontrol et ve başlangıç verilerini yükle
+            
             Database.SetInitializer(new EczaneDbInitializer());
         }
 
@@ -28,12 +28,12 @@ namespace eczaneoto
         }
     }
 
-    // ── VERİTABANINA OTOMATİK KATEGORİ EKLEYEN YENİ KISIM ──
+  
     public class EczaneDbInitializer : CreateDatabaseIfNotExists<EczaneDbContext>
     {
         protected override void Seed(EczaneDbContext context)
         {
-            // Eğer veritabanında hiç kategori yoksa otomatik ekler
+            
             if (!context.Kategoriler.Any())
             {
                 context.Kategoriler.Add(new Kategori { Kategori_Adi = "Ağrı Kesiciler", Kategori_Aciklama = "Genel ağrı kesici ilaçlar" });

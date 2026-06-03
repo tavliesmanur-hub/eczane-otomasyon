@@ -15,6 +15,6 @@ public class Kategori
     [MaxLength(255)]
     public string Kategori_Aciklama { get; set; }
 
-    // one-to-many: bir kategoride birden fazla ilaç olabilir
+    
     public virtual ICollection<Ilac> Ilaclar { get; set; }
 }
