@@ -32,25 +32,19 @@
             this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // txt_KategoriAdi
-            // 
+            
             this.txt_KategoriAdi.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.txt_KategoriAdi.Location = new System.Drawing.Point(651, 85);
             this.txt_KategoriAdi.Name = "txt_KategoriAdi";
             this.txt_KategoriAdi.Size = new System.Drawing.Size(100, 26);
             this.txt_KategoriAdi.TabIndex = 0;
-            // 
-            // txt_Aciklama
-            // 
+           
             this.txt_Aciklama.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.txt_Aciklama.Location = new System.Drawing.Point(651, 120);
             this.txt_Aciklama.Name = "txt_Aciklama";
             this.txt_Aciklama.Size = new System.Drawing.Size(100, 26);
             this.txt_Aciklama.TabIndex = 1;
-            // 
-            // dataGridView1
-            // 
+            
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
@@ -60,9 +54,7 @@
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(518, 199);
             this.dataGridView1.TabIndex = 2;
-            // 
-            // btn_ekle
-            // 
+           
             this.btn_ekle.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_ekle.Location = new System.Drawing.Point(535, 184);
             this.btn_ekle.Name = "btn_ekle";
@@ -71,9 +63,7 @@
             this.btn_ekle.Text = "EKLE";
             this.btn_ekle.UseVisualStyleBackColor = false;
             this.btn_ekle.Click += new System.EventHandler(this.btn_ekle_Click);
-            // 
-            // btn_guncelle
-            // 
+            
             this.btn_guncelle.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_guncelle.Location = new System.Drawing.Point(651, 184);
             this.btn_guncelle.Name = "btn_guncelle";
@@ -82,9 +72,7 @@
             this.btn_guncelle.Text = "GÜNCELLE";
             this.btn_guncelle.UseVisualStyleBackColor = false;
             this.btn_guncelle.Click += new System.EventHandler(this.btn_guncelle_Click);
-            // 
-            // btn_sil
-            // 
+            
             this.btn_sil.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_sil.Location = new System.Drawing.Point(540, 228);
             this.btn_sil.Name = "btn_sil";
@@ -93,9 +81,7 @@
             this.btn_sil.Text = "SİL";
             this.btn_sil.UseVisualStyleBackColor = false;
             this.btn_sil.Click += new System.EventHandler(this.btn_sil_Click);
-            // 
-            // btn_listele
-            // 
+           
             this.btn_listele.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_listele.Location = new System.Drawing.Point(651, 232);
             this.btn_listele.Name = "btn_listele";
@@ -104,27 +90,21 @@
             this.btn_listele.Text = "LİSTELE";
             this.btn_listele.UseVisualStyleBackColor = false;
             this.btn_listele.Click += new System.EventHandler(this.btn_listele_Click);
-            // 
-            // label1
-            // 
+            
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(536, 88);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(95, 20);
             this.label1.TabIndex = 7;
             this.label1.Text = "Kategori Adı";
-            // 
-            // label2
-            // 
+            
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(554, 126);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 20);
             this.label2.TabIndex = 8;
             this.label2.Text = "Açıklama";
-            // 
-            // KategoriForm
-            // 
+            
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::eczaneoto.Properties.Resources._7247b464_8d38_4294_8d90_3d4606930f491;

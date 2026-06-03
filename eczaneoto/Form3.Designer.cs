@@ -38,9 +38,7 @@
             this.lbl_LinqSonuc = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGridView1
-            // 
+            
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(22, 12);
@@ -49,79 +47,61 @@
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(742, 167);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // combo_hasta
-            // 
+            
             this.combo_hasta.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.combo_hasta.FormattingEnabled = true;
             this.combo_hasta.Location = new System.Drawing.Point(22, 209);
             this.combo_hasta.Name = "combo_hasta";
             this.combo_hasta.Size = new System.Drawing.Size(274, 28);
             this.combo_hasta.TabIndex = 1;
-            // 
-            // combo_ilac
-            // 
+            
             this.combo_ilac.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.combo_ilac.FormattingEnabled = true;
             this.combo_ilac.Location = new System.Drawing.Point(429, 209);
             this.combo_ilac.Name = "combo_ilac";
             this.combo_ilac.Size = new System.Drawing.Size(304, 28);
             this.combo_ilac.TabIndex = 2;
-            // 
-            // label1
-            // 
+            
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(38, 182);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 20);
             this.label1.TabIndex = 3;
             this.label1.Text = "Hasta Seç";
-            // 
-            // label2
-            // 
+            
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(442, 182);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "İlaç Seç";
-            // 
-            // dtp_tarih
-            // 
+            
             this.dtp_tarih.CalendarMonthBackground = System.Drawing.Color.Orange;
             this.dtp_tarih.Location = new System.Drawing.Point(22, 291);
             this.dtp_tarih.Name = "dtp_tarih";
             this.dtp_tarih.Size = new System.Drawing.Size(236, 26);
             this.dtp_tarih.TabIndex = 5;
-            // 
-            // txt_miktar
-            // 
+            
             this.txt_miktar.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txt_miktar.Location = new System.Drawing.Point(446, 292);
             this.txt_miktar.Name = "txt_miktar";
             this.txt_miktar.Size = new System.Drawing.Size(288, 26);
             this.txt_miktar.TabIndex = 6;
-            // 
-            // label3
-            // 
+            
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(20, 255);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 20);
             this.label3.TabIndex = 7;
             this.label3.Text = "Tarih";
-            // 
-            // label4
-            // 
+            
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(442, 271);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 20);
             this.label4.TabIndex = 8;
             this.label4.Text = "Miktar";
-            // 
-            // btn_listele
-            // 
+            
             this.btn_listele.BackColor = System.Drawing.Color.FloralWhite;
             this.btn_listele.Location = new System.Drawing.Point(62, 352);
             this.btn_listele.Name = "btn_listele";
@@ -130,9 +110,7 @@
             this.btn_listele.Text = "LİSTELE";
             this.btn_listele.UseVisualStyleBackColor = false;
             this.btn_listele.Click += new System.EventHandler(this.btn_listele_Click);
-            // 
-            // btn_ekle
-            // 
+            
             this.btn_ekle.BackColor = System.Drawing.Color.FloralWhite;
             this.btn_ekle.Location = new System.Drawing.Point(170, 352);
             this.btn_ekle.Name = "btn_ekle";
@@ -141,9 +119,7 @@
             this.btn_ekle.Text = "EKLE";
             this.btn_ekle.UseVisualStyleBackColor = false;
             this.btn_ekle.Click += new System.EventHandler(this.btn_ekle_Click);
-            // 
-            // btn_sil
-            // 
+            
             this.btn_sil.BackColor = System.Drawing.Color.FloralWhite;
             this.btn_sil.Location = new System.Drawing.Point(264, 352);
             this.btn_sil.Name = "btn_sil";
@@ -152,9 +128,7 @@
             this.btn_sil.Text = "SİL";
             this.btn_sil.UseVisualStyleBackColor = false;
             this.btn_sil.Click += new System.EventHandler(this.btn_sil_Click);
-            // 
-            // btn_geri
-            // 
+            
             this.btn_geri.BackColor = System.Drawing.Color.FloralWhite;
             this.btn_geri.Location = new System.Drawing.Point(665, 403);
             this.btn_geri.Name = "btn_geri";
@@ -163,9 +137,7 @@
             this.btn_geri.Text = "GERİ";
             this.btn_geri.UseVisualStyleBackColor = false;
             this.btn_geri.Click += new System.EventHandler(this.btn_geri_Click);
-            // 
-            // rd_EnCokSatan
-            // 
+            
             this.rd_EnCokSatan.AutoSize = true;
             this.rd_EnCokSatan.Location = new System.Drawing.Point(381, 341);
             this.rd_EnCokSatan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -176,9 +148,7 @@
             this.rd_EnCokSatan.Text = "En cok satan";
             this.rd_EnCokSatan.UseVisualStyleBackColor = true;
             this.rd_EnCokSatan.CheckedChanged += new System.EventHandler(this.rb_enCokSatan_CheckedChanged);
-            // 
-            // rd_ToplamRecete
-            // 
+            
             this.rd_ToplamRecete.AutoSize = true;
             this.rd_ToplamRecete.Location = new System.Drawing.Point(381, 376);
             this.rd_ToplamRecete.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -189,17 +159,13 @@
             this.rd_ToplamRecete.Text = "toplam recete";
             this.rd_ToplamRecete.UseVisualStyleBackColor = true;
             this.rd_ToplamRecete.CheckedChanged += new System.EventHandler(this.rb_toplamRecete_CheckedChanged);
-            // 
-            // lbl_LinqSonuc
-            // 
+            
             this.lbl_LinqSonuc.Location = new System.Drawing.Point(519, 341);
             this.lbl_LinqSonuc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_LinqSonuc.Name = "lbl_LinqSonuc";
             this.lbl_LinqSonuc.Size = new System.Drawing.Size(245, 59);
             this.lbl_LinqSonuc.TabIndex = 15;
-            // 
-            // Form3
-            // 
+            
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::eczaneoto.Properties.Resources._3b710f26_bed5_4ccb_a026_46809df7ef88;
